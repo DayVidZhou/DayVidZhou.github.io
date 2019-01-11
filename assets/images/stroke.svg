@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="174px" height="189px" viewBox="0 0 174 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>stroke</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="stroke" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,160 C43.3080276,160 43.3080276,188.282794 86.6160552,188.282794 C129.924083,188.282794 130.375976,160 173.23211,160" id="Path-2" stroke="#1ED28B" transform="translate(86.616055, 174.141397) scale(1, -1) translate(-86.616055, -174.141397) "></path>
+        <path d="M0,120 C43.3080276,120 43.3080276,148.282794 86.6160552,148.282794 C129.924083,148.282794 130.375976,120 173.23211,120" id="Path-2" stroke="#1ED28B" transform="translate(86.616055, 134.141397) scale(1, -1) translate(-86.616055, -134.141397) "></path>
+        <path d="M0,81 C43.3080276,81 43.3080276,109.282794 86.6160552,109.282794 C129.924083,109.282794 130.375976,81 173.23211,81" id="Path-2" stroke="#1ED28B" transform="translate(86.616055, 95.141397) scale(1, -1) translate(-86.616055, -95.141397) "></path>
+        <path d="M0,41 C43.3080276,41 43.3080276,69.2827935 86.6160552,69.2827935 C129.924083,69.2827935 130.375976,41 173.23211,41" id="Path-2" stroke="#1ED28B" transform="translate(86.616055, 55.141397) scale(1, -1) translate(-86.616055, -55.141397) "></path>
+        <path d="M0,1 C43.3080276,1 43.3080276,29.2827935 86.6160552,29.2827935 C129.924083,29.2827935 130.375976,1 173.23211,1" id="Path-2" stroke="#1ED28B" transform="translate(86.616055, 15.141397) scale(1, -1) translate(-86.616055, -15.141397) "></path>
+    </g>
+</svg>
