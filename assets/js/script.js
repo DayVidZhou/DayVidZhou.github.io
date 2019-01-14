@@ -33,3 +33,11 @@ $( function() {
 			overlay: true
 		});
 });
+
+function openMenu() {
+	$('#menu').removeClass("hidden");
+}
+
+function hideMenu() {
+	$('#menu').addClass("hidden");
+}

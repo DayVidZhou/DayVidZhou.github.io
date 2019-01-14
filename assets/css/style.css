@@ -63,6 +63,8 @@ html, body {
   margin-right: auto;
   left: 0px;
   right: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .container-1200 {
@@ -80,7 +82,6 @@ html, body {
   padding-top: 72px;
 }
 .navbar {
-  overflow: hidden;
   position: fixed !important;
   top: 0;
   width: 100%;
@@ -89,21 +90,27 @@ html, body {
   margin-bottom: 0px !important;
   /* text-transform: uppercase !important; */
 }
-.navbar>div>a {
-  width: 140px;
+.navbar>div {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar>.desktop>div>a {
+  width: 100px;
   font-family: Gilroy-Semibold;
   font-size: 16px;
   color: #1D223B ;
-  line-height: 28px;]
+  line-height: 28px;
 
 }
-.navbar>.left>a {
+.navbar>.desktop>.left>a {
   float: left;
   display: block;
+  text-align: left;
 }
-.navbar>.right>a {
+.navbar>.desktop>.right>a {
   float: right;
   display: block;
+  text-align: right;
 }
 
 .vertical-center {
@@ -153,7 +160,7 @@ h1 {
   background-size: cover;
 }
 .infront {
-  z-index: 999999999;
+  z-index: 999;
 }
 .atback {
   z-index: 0;
@@ -173,10 +180,10 @@ h1 {
   line-height: 28px;
 }
 
-.section {
+section {
   margin-bottom: 144px;
 }
-.section:last-of-type {
+section:last-of-type {
   margin-bottom: 0px !important;
 }
 .icon {
@@ -192,7 +199,7 @@ h1 {
 }
 
 #design {
-  margin-top: 200px;
+  padding-top: 72px;
 }
 #design>div>div {
   margin-bottom: 160px;
@@ -244,7 +251,9 @@ h2.left {
   margin-bottom: 20px;
 }
 
-
+p {
+  margin-bottom: 16px !important;
+}
 p.right {
   opacity: 0.5;
   font-family: Gilroy-Regular;
@@ -273,7 +282,7 @@ p.left{
 }
 
 #news {
-  height: 450px;
+  height: auto;
   background: #E7FFF5;
   overflow: hidden;
   position: relative;
@@ -296,11 +305,13 @@ p.left{
 }
 #news>div>div>div {
   float: left;
+  margin-top: 72px;
+  margin-bottom: 72px;
 }
 .icon-news {
   height: 450px;
   background: url(../images/news.svg) no-repeat;
-  background-position: center right;
+  background-position: center left;
 }
 h4 {
   font-family: Gilroy-Medium !important;
@@ -331,21 +342,28 @@ button.green.small {
    align-items: center;
 }
 .profile {
-  width: 100%;
+  width: 100%;.desktop>
 }
 div>.profile {
-  padding-left: 32px !important;
-  padding-right: 32px !important;
   margin-bottom: 8px;
 }
 #team>div>div>div {
-  margin-bottom: 48px;
+  margin-bottom: 16px;
+}
+#team>div>div#photo-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#team>div>div>h2 {
+  margin-top: 0px;
 }
 
 #divider1 {
-  height: 85px;
+  height: 40px;
   background: url(../images/division.svg) no-repeat;
-  margin-bottom: 200px
+  margin-bottom: 144px;
+  background-size: contain;
 }
 .signature {
   width: 100%;
@@ -365,4 +383,99 @@ div>.profile {
 .reverse-col > [class*="col-"] {
   transform: rotate(-180deg);
   direction: ltr; /* Fix the horizontal alignment */
+}
+button.hamburger {
+  width: 48px;
+  height: 48px;
+  background: url(../images/hamburger.svg) no-repeat;
+  border: none;
+  outline: none;
+}
+
+button.cross {
+  width: 48px;
+  height: 48px;
+  background: url(../images/close.svg) no-repeat;
+  border: none;
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#menu {
+  position: fixed;
+  z-index: 999999;
+  top: 0px;
+  right: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  padding: 15px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#menu>div {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center !important;
+}
+#menu>div>a {
+  font-family: Gilroy-SemiBold;
+  font-size: 32px;
+  color: #1D223B;
+  line-height: 40px;
+}
+
+#timeline-container {
+  position: absolute;
+  height: 100%;
+  overflow-y: hidden;
+}
+#timeline {
+  position: relative;
+  height: 100%;
+  width: 8px;
+  left: 60px;
+  background-color: #EEF0F5;
+}
+
+section#page-title {
+  padding-top: 144px;
+  padding-bottom: 72px;
+  margin-bottom: 0px;
+  background: #FFF2E0;
+}
+
+.article {
+  position: relative;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.article>div>#timestamp {
+  margin-top: 16px;
+  background: #FFFFFF;
+  height: 58px;
+  padding-top: 10px;
+}
+
+.article:first-of-type>#timeline-container>#timeline {
+  margin-top: 40px;
+}
+
+.article:last-of-type>#timeline-container>#timeline {
+  bottom: calc(100% - 40px);
+}
+
+.article>.content>img {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+footer {
+  border-top: 1px solid #EEF0F5;
 }
