@@ -235,10 +235,10 @@ section:last-of-type {
 h2.right {
   /* margin-top: calc(50% - 96px); */
   font-family: Gilroy-Bold;
-  font-size: 48px;
+  font-size: 34px;
   color: #1D223B;
   text-align: right;
-  line-height: 58px;
+  line-height: 48px;
   margin-bottom: 20px;
 }
 h2.left {
