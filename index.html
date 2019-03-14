@@ -8,6 +8,7 @@
 	    <meta name="description" content="Petal smart meter energy monitor. Install and in your home and start saving on your electricity bill.">
 			<meta name="keywords" content="Petal, Energy Monitoring, Meter, Internet of things, IoT, Smart, Electricity, Usage, Savings">
 	    <meta name="author" content="Petal">
+			<link href="assets/css/modal-video.min.css" rel="stylesheet" type="text/css">
 	    <link href="assets/css/animate.css" rel="stylesheet">
 	    <link href="assets/css/style.css" rel="stylesheet">
 	    <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -58,6 +59,9 @@
 	<section id="landing">
 		<div class="container-960 infront">
 			<div id="hero-phone" class="col-lg-4 col-md-4 col-sm-4 hidden-sm col-xs-1 hidden-xs">
+				<a href="#" class="js-video-button" data-channel="video" data-video-url="assets/videos/test.mp4">
+					<button class="hero-play"></button>
+				</a>
 			</div>
 			<div id="hero-content" class="col-lg-7 col-lg-offset-0 col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12">
 				<div id="petal-icon"></div>
@@ -173,6 +177,15 @@
 	</footer>
 	<script src="assets/js/jquery-3.1.0.min.js"></script>
 	<script src="assets/js/imagelightbox.min.js"></script>
+	<script src="assets/js/jquery-modal-video.js"></script>
+	<script>
+		$(".js-video-button").modalVideo({
+			youtube:{
+				controls:0,
+				nocookie: true
+			}
+		});
+	</script>
 	<!-- <script src="assets/js/bootstrap.js"></script> -->
 	<script src="assets/js/script.js"></script>
 </html>
