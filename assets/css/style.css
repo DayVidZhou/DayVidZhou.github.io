@@ -495,3 +495,7 @@ footer {
   border: none !important;
   box-shadow: 0 8px 24px 0 rgba(29,34,59,0.27);
 }
+.demo-link {
+  text-decoration:none;
+  
+}
