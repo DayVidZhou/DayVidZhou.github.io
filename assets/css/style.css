@@ -206,7 +206,7 @@ section:last-of-type {
   padding-top: 72px;
 }
 #design>div>div {
-  margin-bottom: 160px;
+  margin-bottom: 120px;
 }
 
 #design>div>div>.text {
@@ -521,4 +521,60 @@ footer {
   color: #16C07C;
   height: 40px;
   padding-top: 2px;
+}
+
+.video-demo {
+  overflow: hidden;
+  background-color: blue;
+  width: 100%;
+  padding-bottom: 75%;
+  margin-bottom: 16px;
+}
+
+.video-demo#live-power {
+  background: url(../images/thumbnail_live_power.png) no-repeat !important;
+  background-size: cover !important;
+}
+
+.video-demo#disaggregation {
+  background: url(../images/thumbnail_dis.png) no-repeat !important;
+  background-size: cover !important;
+}
+
+.video-title {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.video-actions {
+  width: 100%;
+  margin-top: -32px;
+  margin-left: 0;
+  margin-right: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.button-play-medium {
+  margin:0 auto;
+  display:block;
+  width: 48px;
+  height: 48px;
+  outline: none !important;
+  border: none !important;
+  background: url(../UI/button_play_medium.svg) no-repeat !important;
+}
+
+#demo>div>h2 {
+  margin-bottom: 48px;
+}
+
+#demo>div {
+  margin-bottom: 160px
 }
